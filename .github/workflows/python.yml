@@ -19,5 +19,5 @@ jobs:
     - name: Build & Push Image
       run: |
         docker login -u "prashola" --password Lavanya@24
-        docker image build -t prashola/yaml:latest
+        docker image build -t prashola/yaml:latest .
         docker push prashola/yaml:latest
